@@ -1,0 +1,49 @@
+.Form {
+    width: 100%;
+}
+
+.FormContainer {
+    width: 80%;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px #aaaaaa;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 15px auto;
+}
+
+.ResultContainer {
+    text-align: left;
+    min-height: 350px;
+}
+
+.FormButton {
+    width: 100%;
+    cursor: pointer;
+    background-color: darkblue;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+
+.FormButton:enabled {
+    transition: background-color 0.5s;
+}
+
+.FormButton:disabled {
+    cursor: not-allowed;
+    background-color: lightslategrey;
+}
+
+.Error {
+    text-align: center;
+    font-weight: bold;
+}
+@media (min-width: 700px) {
+    .Form {
+        width: 600px;
+    }
+}
